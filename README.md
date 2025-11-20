@@ -135,8 +135,7 @@ Steps to run and deploy:
 - npm install netlify-cli -g
 - netlify login
 - netlify init
-- npm run build
-- git add . && git commit -m "C" && git push origin main && git push && netlify deploy --prod && netlify open
+- npm install && npm run build && git add . && git commit -m "C" && git push origin main && git push && netlify deploy --prod && netlify open
 
 ---
 
