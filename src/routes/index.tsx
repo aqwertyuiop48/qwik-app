@@ -272,7 +272,7 @@ startGame()
             <div class="key" onclick="keyboardHandler(event)">P</div>
             <div class="key" onclick="keyboardHandler(event)">[</div>
             <div class="key" onclick="keyboardHandler(event)">]</div>
-            <div class="key backslash" onclick="keyboardHandler(event)">\\</div>
+            <div class="key backslash" onclick="keyboardHandler(event)">\</div>
         </div>
         <div class="section-a">
     
@@ -6672,7 +6672,7 @@ const codepen = `
         };
     
     compile();
-    <\\/script>
+    <\/script>
 </body>
 </html>
 
@@ -7240,7 +7240,7 @@ const chess = `
                             var topleft = 0;
                             if ((val - 1) % 8 == 0) {
                                 topleft = 0;
-                            } else if (val % 8 == 0) \\{
+                            } else if (val % 8 == 0) \{
                                 topleft = 8
                             } else {
                                 topleft = val % 8;
@@ -7922,7 +7922,7 @@ const chess = `
     </html>
 \`)
    doc.close();
-<\\/script>
+<\/script>
 </body>
 </html>
 `;
@@ -9768,7 +9768,7 @@ return this;
 </html>
 \`)
 doc.close();
-<\\/script>
+<\/script>
 </body>
 </html>
 `;
